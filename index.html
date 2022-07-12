@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Sunnyside Agency</title>
@@ -15,18 +15,21 @@
     <nav class="nav">
       <img src="./images/logo.svg" alt="" class="logo">
       <ul class="menu-list">
-        <li class="menu-item">Sobre</li>
-        <li class="menu-item">Serviços</li>
-        <li class="menu-item">Projetos</li>
-        <li class="menu-item">Contato</li>
+        <li class="menu-item"><a href="" class="menu-link">Sobre</a></li>
+        <li class="menu-item"><a href="" class="menu-link">Serviços</a></li>
+        <li class="menu-item"><a href="" class="menu-link">Projetos</a></li>
+        <li class="menu-item"><a href="" class="menu-link">Contato</a></li>
       </ul>
+      <img src="./images/icon-hamburger.svg" alt="" class="menu mobile">
     </nav>
-    <h1 class="header-title">Nós somos criativos</h1>
-    <img src="./images/icon-arrow-down.svg" alt="" class="header-arrow">
+    <div class="header-content">
+      <h1 class="header-title">Nós somos criativos</h1>
+      <img src="./images/icon-arrow-down.svg" alt="" class="header-arrow">
+    </div>
   </header>
 
   <section class="grid-section">
-
+    <img src="./images/mobile/image-transform.jpg" alt="" class="card-image mobile">
     <div class="card-image"></div>
     <div class="card-info">
       <div class="card-content">
@@ -36,6 +39,7 @@
       </div>
     </div>
 
+    <img src="./images/mobile/image-stand-out.jpg" alt="" class="card-image mobile">
     <div class="card-image"></div>
     <div class="card-info">
       <div class="card-content">
@@ -67,7 +71,7 @@
     <div class="client-group">
       <div class="card-client">
         <div class="card-client-content">
-          <img src="" alt="" class="card-client-avatar">
+          <img src="./images/image-emily.jpg" alt="" class="card-client-avatar">
           <p class="card-client-text">Depositamos nossa confiança na Sunnyside e eles entregaram, garantindo que nossas necessidades fossem atendidas e os prazos fossem sempre cumpridos.</p>
           <p class="card-client-name">Emily R.</p>
           <p class="card-client-role">Diretora de Marketing</p>
@@ -75,7 +79,7 @@
       </div>
       <div class="card-client">
         <div class="card-client-content">
-          <img src="" alt="" class="card-client-avatar">
+          <img src="./images/image-thomas.jpg" alt="" class="card-client-avatar">
           <p class="card-client-text">O entusiasmo de Sunnyside, juntamente com seu grande interesse no sucesso de nossa marca, tornou uma experiência satisfatória e agradável.</p>
           <p class="card-client-name">Thomas S.</p>
           <p class="card-client-role">Diretor de Operações</p>
@@ -83,7 +87,7 @@
       </div>
       <div class="card-client">
         <div class="card-client-content">
-          <img src="" alt="" class="card-client-avatar">
+          <img src="./images/image-jennie.jpg" alt="" class="card-client-avatar">
           <p class="card-client-text">Resultado final incrível! Nossas vendas aumentaram mais de 400% quando trabalhamos com a Sunnyside. Altamente recomendado!</p>
           <p class="card-client-name">Jennie F.</p>
           <p class="card-client-role">Empreendedor(a)</p>
@@ -114,6 +118,6 @@
       <li class="footer-icon-item"><img src="./images/icon-pinterest.svg" alt="" class="footer-icon"></li>
     </ul>
   </footer>
-
+  <script src="assets/js/app.js"></script>
 </body>
 </html>

@@ -232,10 +232,11 @@
 .client-group {
     margin-top: 4rem;
     display: flex;
+    justify-content: center;
 }
 
 .card-client {
-    width: 330px;
+    width: 35%;
     margin-right: 2rem;
 }
 

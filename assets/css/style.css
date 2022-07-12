@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap');
+
+:root {
+    --very-dark-desaturated-blue-color: hsl(212, 27%, 19%);
+    --very-dark-grayish-blue-color: hsl(213, 9%, 39%);
+    --dark-grayish-blue-color: hsl(232, 10%, 55%);
+    --grayish-blue-color: hsl(210, 4%, 67%);
+    --white-color: hsl(0, 0%, 100%);
+    --soft-red-color: hsl(7, 99%, 70%);
+    --yellow-color: hsl(51, 100%, 49%);
+    --dark-desaturated-cyan: hsl(167, 40%, 24%);
+    --dark-blue-color: hsl(198, 62%, 26%);
+    --dark-moderate-cyan-color: hsl(168, 34%, 41%);
+    --common-ff: 'Barlow', sans-serif;
+    --head-ff: 'Fraunces', sans-serif;
+}
